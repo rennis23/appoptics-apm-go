@@ -28,7 +28,7 @@ func WaitForReady(ctx context.Context) bool {
 	return reporter.WaitForReady(ctx)
 }
 
-func flushAgent() error {
+func FlushAgent() error {
 	return reporter.Flush()
 }
 
